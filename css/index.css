@@ -85,7 +85,7 @@ h3{
 
 section, .fullRow{
 	margin-top: 2rem;
-	margin-bottom: 2rem;
+    margin-bottom: 2rem;
 }
 
 p {
@@ -170,7 +170,7 @@ nav a {
 }
 
 .topBar, .catSection, .fullRow{
-	justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 
 .leftCat{
@@ -208,9 +208,6 @@ nav a {
     .oneThirdBox{
         width: 100%;
     }
-    .middle-img{
-        max-width: 100%;
-    }
     .align-center{
         text-align: center;
     }
@@ -234,6 +231,21 @@ nav a {
 	border: 1px solid gray;
 	padding: 1rem;
 	background-color: #eee;
+}
+
+@media (max-width: 768px){
+    .contentBox{
+        margin-bottom: 1rem;
+    }
+    .fullRow{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }    
+}
+
+.services-info-img, .services-header-img, .middle-img{
+    max-width: 100%;
+    margin: 0.5rem;
 }
 
 .txtLeft{
