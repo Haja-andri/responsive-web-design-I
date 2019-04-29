@@ -92,6 +92,10 @@ p {
 	margin-bottom: 2rem;
 }
 
+ul{
+    margin: 1rem;
+}
+
 .container{
 	width: 50%;
 	margin: 0 auto;
