@@ -99,13 +99,19 @@ p {
 
 @media (max-width: 750px){
     .container{
-        width: 100%;
+        width: 90%;
     }    
 }
 
 nav, .topBar, .catSection, .leftCat, .fullRow, .halfBox{
 	display: flex;
 	flex-wrap: wrap;
+}
+
+@media (max-width: 750px){
+    .fullRow{
+        flex-direction: column;
+    }    
 }
 
 nav{
@@ -126,7 +132,7 @@ nav a {
     }
     nav a {
         padding: 0.5rem;
-        width: 85%;
+        width: 100%;
         text-align: center;
         border-bottom: 1px solid gray;
     }
@@ -170,6 +176,23 @@ nav a {
 .oneThirdBox{
 	width: 30%;
 }
+
+@media (max-width: 750px){
+    .halfBox{
+        width: 100%;
+    }  
+    .oneThirdBox{
+        width: 100%;
+    }
+    .middle-img{
+        max-width: 100%;
+    }
+    .align-center{
+        text-align: center;a
+    }
+
+}
+
 
 .addressBox{
 	margin: 20px;
