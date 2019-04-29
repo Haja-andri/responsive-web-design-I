@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 	font-family: 'Merriweather', serif;
 	font-weight: bold;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 /* Your code starts here! */
@@ -84,12 +84,12 @@ h3{
 }
 
 section, .fullRow{
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 p {
-	margin-bottom: 30px;
+	margin-bottom: 2rem;
 }
 
 .container{
@@ -182,14 +182,14 @@ nav a {
 
 
 .logo{
-    margin: 20px;
+    margin: 1.5rem;
     text-align: center;
 }
 
 .cat{
 	border: 1px solid black;
 	width: 200px;
-	padding: 10px;
+	padding: 1rem;
 	text-align: center;
 }
 
@@ -212,14 +212,14 @@ nav a {
         max-width: 100%;
     }
     .align-center{
-        text-align: center;a
+        text-align: center;
     }
 
 }
 
 
 .addressBox{
-	margin: 20px;
+	margin: 1.5rem;
 }
 
 .addressBox p{
@@ -232,7 +232,7 @@ nav a {
 
 .contentBox{
 	border: 1px solid gray;
-	padding: 10px;
+	padding: 1rem;
 	background-color: #eee;
 }
 
