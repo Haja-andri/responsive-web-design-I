@@ -133,6 +133,10 @@ nav a {
     .topBar{
         flex-direction: column-reverse;
     }
+
+    .righCat{
+        display:none;
+    }
 }
 
 .topBar, .catSection, .fullRow{
