@@ -1,3 +1,171 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+:root{
+    font-size: 16px;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+h1{
+	font-size: 4rem;
+}
+
+h2{
+	font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+section, .fullRow{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+.container{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.menuList, .topBar, .catSection, .leftCat, .fullRow, .halfBox{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.topBar, .catSection, .fullRow{
+	justify-content: space-evenly;
+}
+
+.leftCat{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center
+}
+
+.menuList{
+	justify-content: space-around;
+	align-items: center;
+	width: 60%;
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.logo{
+	margin: 20px;	
+}
+
+.cat{
+	border: 1px solid black;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+}
+
+.halfBox{
+	width: 45%;
+}
+
+.oneThirdBox{
+	width: 30%;
+}
+
+.addressBox{
+	margin: 20px;
+}
+
+.addressBox p{
+	color: gray;
+}
+
+.withBorder{
+	border-top: 1px solid gray; 
+}
+
+.contentBox{
+	border: 1px solid gray;
+	padding: 10px;
+	background-color: #eee;
+}
+
+.txtLeft{
+	justify-content: flex-start;
+}
+
+.rounded{
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
